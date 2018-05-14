@@ -1,0 +1,6 @@
+@mixin font($font-size: 14px, $color: $font_color_dark, $font-weight: 400, $font-family:"Areal") {
+  font-size: $font-size;
+  color: $color;
+  font-weight: $font-weight;
+  font-family: $font-family;
+}
