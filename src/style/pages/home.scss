@@ -1,0 +1,20 @@
+.main-bg{
+  background-color: $main_light;
+}
+
+.main-img {
+  height: 460px;
+  background: url(../../img/img-boy.png) left bottom no-repeat,
+  url(../../img/light.png) 341px 95px no-repeat,
+  url(../../img/img-books-lamp.png) right bottom no-repeat $main_light;
+  background-size: auto;
+}
+
+.our_advantages h2{
+  color: $text_dark;
+  text-align: center;
+}
+
+.facebook_logo{
+font-size: 100px;
+}
