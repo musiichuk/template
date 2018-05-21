@@ -1,4 +1,4 @@
-.main-bg{
+.main-bg {
   background-color: $main_light;
 }
 
@@ -10,11 +10,66 @@
   background-size: auto;
 }
 
-.our_advantages h2{
+.our_advantages h2 {
   color: $text_dark;
   text-align: center;
 }
 
-.facebook_logo{
-font-size: 100px;
+.facebook_logo {
+  font-size: 100px;
+}
+
+.test_text {
+  display: block;
+  column-count: 2;
+  column-gap: 30px;
+}
+
+.second_main_text {
+  color: $text_dark;
+  //font-size: 36px;
+  text-align: center;
+}
+
+.H_I_T_lines {
+  background-color: $main_light;
+}
+
+.H_I_T_lines span {
+  text-align: center;
+  font-size: 36px;
+  color: $text_light;
+
+}
+
+.fa-cloud-upload{
+  width: 30px;
+  height: 20px;
+}
+
+//.H_I_T_lines img{
+//  background-color: $buton_solid ;
+//  padding: 45px;
+//}
+
+.pic_first img{
+  padding: 19px 24px 20px 25px;
+  width: 21px;
+  height: 31px;
+  background-color: $buton_solid ;
+
+}
+
+.pic_second img{
+  background-color: $buton_solid ;
+  //width: 70px;
+  //height: 70px;
+  padding: 16px;
+  border: 1px solid #cccccc;
+}
+
+.pic_third img{
+  background-color: $buton_solid;
+  padding: 18px;
+  border: 1px solid #ccc;
 }
