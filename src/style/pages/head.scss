@@ -1,0 +1,52 @@
+.top_line {
+  color: $text_super_liht;
+  background-color: $small_lines_solid;
+}
+
+.top_line a {
+  color: $text_super_liht;
+  text-decoration: none;
+}
+
+.join_us {
+  color: $text_super_liht;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+.join_us a:hover {
+  color: $buton_solid;
+}
+
+.nav_main{
+ margin-top: 15px;
+}
+
+.nav_main a{
+ margin-left: 3px;
+  margin-top: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  color: $text_dark;
+  text-decoration: none;
+  display: inline-block;
+  //text-transform: uppercase;
+  list-style-type: none;
+}
+
+.nav_main a:hover{
+  font-size: 17px;
+  color: $buton_solid;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.logo_company {
+  text-align: center;
+}
+
+.top_line i{
+  font-size: 17px;
+  margin-right: 7px;
+}

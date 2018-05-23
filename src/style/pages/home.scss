@@ -2,6 +2,59 @@
   background-color: $main_light;
 }
 
+.content_main h1{
+  font-size: 46px;
+  //padding-left: 91px;
+  //padding-top: 12px;
+  color: $text_super_liht;
+  text-align: center;
+}
+
+.content_main button{
+  margin-top: 37px;
+  margin-left: 15px;
+  font-size: 18px;
+  width: 188px;
+  height: 53px;
+  text-align: center;
+  color: $text_super_liht;
+  background-color: $small_lines_solid;
+  border: 1px solid $text_super_liht;
+}
+
+.content_main button:hover{
+  background-color: $buton_solid;
+}
+
+.text_main_small h2{
+  text-align: center;
+  color: $text_super_liht;
+}
+
+.Y_A_I_R_P{
+  color: $text_dark;
+  text-align: left;
+  font-weight: 300;
+  font-size: 19px;
+}
+
+.under_Y_A_I_R_P{
+  color: $text_dark;
+  text-align: left;
+  font-size: 19px;
+  font-weight: 200;
+}
+
+.button_uder_MS button{
+  font-size: 18px;
+  margin-left: 100px;
+  width: 169px;
+  height: 69px;
+  color: $text_super_liht;
+  background-color: $buton_solid;
+  border: 1px solid $text_super_liht;
+}
+
 .main-img {
   height: 460px;
   background: url(../../img/img-boy.png) left bottom no-repeat,
