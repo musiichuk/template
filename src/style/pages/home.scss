@@ -2,7 +2,7 @@
   background-color: $main_light;
 }
 
-.content_main h1{
+.content_main h1 {
   font-size: 46px;
   //padding-left: 91px;
   //padding-top: 12px;
@@ -10,7 +10,8 @@
   text-align: center;
 }
 
-.content_main button{
+.content_main button {
+  border-radius: 3px;
   margin-top: 37px;
   margin-left: 15px;
   font-size: 18px;
@@ -22,30 +23,31 @@
   border: 1px solid $text_super_liht;
 }
 
-.content_main button:hover{
+.content_main button:hover {
   background-color: $buton_solid;
 }
 
-.text_main_small h2{
+.text_main_small h2 {
   text-align: center;
   color: $text_super_liht;
 }
 
-.Y_A_I_R_P{
+.Y_A_I_R_P {
   color: $text_dark;
   text-align: left;
   font-weight: 300;
   font-size: 19px;
 }
 
-.under_Y_A_I_R_P{
+.under_Y_A_I_R_P {
   color: $text_dark;
   text-align: left;
   font-size: 19px;
   font-weight: 200;
 }
 
-.button_uder_MS button{
+.button_uder_MS button {
+  border-radius: 3px;
   font-size: 18px;
   margin-left: 100px;
   width: 169px;
@@ -61,6 +63,55 @@
   url(../../img/light.png) 341px 95px no-repeat,
   url(../../img/img-books-lamp.png) right bottom no-repeat $main_light;
   background-size: auto;
+}
+
+.under_boy_line {
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: $text_light;
+  background-color: $small_lines_solid;
+}
+
+.under_boy_line button {
+  border-radius: 3px;
+  display: inline-block;
+  background-color: $small_lines_solid;
+  border: 1px solid $text_light;
+}
+
+
+.our_advantages{
+  .top-left{
+    background: url("../../img/sprite.png") center -3136px no-repeat $main_light;
+    &:hover{
+      background: url("../../img/sprite.png") center -2603px no-repeat $buton_solid;
+    }
+  }
+  .top-middle{
+    background: url("../../img/sprite.png") center -3136px no-repeat $main_light;
+    &:hover{
+      background: url("../../img/sprite.png") center -2603px no-repeat $buton_solid;
+    }
+  }
+  a{
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 162px;
+    &:hover{
+      text-decoration: none;
+      span{
+        color: $light_fields;
+      }
+    }
+      span{
+        display: inline-block;
+        padding-top: 26%;
+        color: $dark_fields;
+      }
+  }
+
 }
 
 .our_advantages h2 {
@@ -95,7 +146,7 @@
 
 }
 
-.fa-cloud-upload{
+.fa-cloud-upload {
   width: 30px;
   height: 20px;
 }
@@ -105,24 +156,31 @@
 //  padding: 45px;
 //}
 
-.pic_first img{
+.pic_first img {
   padding: 19px 24px 20px 25px;
   width: 21px;
   height: 31px;
-  background-color: $buton_solid ;
+  background-color: $buton_solid;
 
 }
 
-.pic_second img{
-  background-color: $buton_solid ;
+.pic_second img {
+  background-color: $buton_solid;
   //width: 70px;
   //height: 70px;
   padding: 16px;
   border: 1px solid #cccccc;
 }
 
-.pic_third img{
+.pic_third img {
   background-color: $buton_solid;
   padding: 18px;
   border: 1px solid #ccc;
+}
+
+.under_HIT h2 {
+  text-align: center;
+  font-size: 36px;
+  color: $text_dark;
+  font-weight: 400;
 }
