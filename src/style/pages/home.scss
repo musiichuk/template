@@ -83,17 +83,48 @@
 
 .our_advantages{
   .top-left{
+    margin: 10px;
     background: url("../../img/sprite.png") center -3136px no-repeat $main_light;
     &:hover{
       background: url("../../img/sprite.png") center -2603px no-repeat $buton_solid;
     }
   }
   .top-middle{
-    background: url("../../img/sprite.png") center -3136px no-repeat $main_light;
+    margin: 10px;
+    background: url("../../img/sprite.png") center -3669px no-repeat $main_light;
     &:hover{
-      background: url("../../img/sprite.png") center -2603px no-repeat $buton_solid;
+      background: url("../../img/sprite.png") center -3669px no-repeat $buton_solid;
     }
   }
+  .top-right{
+    margin: 10px;
+    background: url("../../img/sprite.png") center -5819px no-repeat $main_light;
+    &:hover{
+      background: url("../../img/sprite.png") center -5819px no-repeat $buton_solid;
+    }
+  }
+  .bottom-left{
+    margin: 10px;
+    background: url("../../img/sprite.png") center -2077px no-repeat $main_light;
+    &:hover{
+      background: url("../../img/sprite.png") center -2077px no-repeat $buton_solid;
+    }
+  }
+  .bottom-middle{
+    margin: 10px;
+    background: url("../../img/sprite.png") center -4213px no-repeat $main_light;
+    &:hover{
+      background: url("../../img/sprite.png") center -4213px no-repeat $buton_solid;
+    }
+  }
+  .bottom-right{
+    margin: 10px;
+    background: url("../../img/sprite.png") center -4746px no-repeat $main_light;
+    &:hover{
+      background: url("../../img/sprite.png") center -4746px no-repeat $buton_solid;
+    }
+  }
+
   a{
     text-align: center;
     display: block;
