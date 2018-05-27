@@ -209,9 +209,71 @@
   border: 1px solid #ccc;
 }
 
-.under_HIT h2 {
+.under_HIT{
+  & h2{
   text-align: center;
   font-size: 36px;
   color: $text_dark;
-  font-weight: 400;
+  font-weight: 400;}
+    & p{
+      font-size: 14px;
+      //width: 572px;
+      //height: 331px;
+      color: #777777;
+      //font-family: Montserrat;
+      //font-size: 14px;
+      font-weight: 300;
+      line-height: 24.39px;
+    }
+
+  & li{
+    font-size: 14px;
+    color: #777777;
+  }
+  & ul{
+    padding-bottom: 12px;
+  }
+  & button{
+    margin-left: 155px;
+    border-radius: 2px;
+    border: 1px solid $small_lines_solid;
+    text-align: center;
+    background-color: $small_lines_solid;
+    width: 188px;
+    height: 53px;
+    color: $text_super_liht;
+    margin-bottom: 5px;
+  }
+& button:hover{
+  background-color: $buton_solid;
+}
+}
+
+.pre_last_line{
+  background-color: $small_lines_solid;
+  & img{
+    position: center;
+    width: 203px;
+    height: 70px;
+    background-color: #ccd3dd;
+  }
+  & .logo_down{
+    margin: 20px 0;
+    position: center;
+    background-color: #ccd3dd;
+    width: 300px;
+    height: 97px;
+    border: 2px solid $text_super_liht;
+  }
+}
+
+.contacts_down{
+  color: $text_super_liht;
+  text-align: center;
+  margin-bottom: 20px;
+  & a{
+    color: $text_super_liht;
+    text-align: center;
+    text-decoration: none;
+  }
 }
