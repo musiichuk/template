@@ -80,67 +80,66 @@
   border: 1px solid $text_light;
 }
 
-
-.our_advantages{
-  .top-left{
+.our_advantages {
+  .top-left {
     margin: 10px;
     background: url("../../img/sprite.png") center -3136px no-repeat $main_light;
-    &:hover{
+    &:hover {
       background: url("../../img/sprite.png") center -2603px no-repeat $buton_solid;
     }
   }
-  .top-middle{
+  .top-middle {
     margin: 10px;
     background: url("../../img/sprite.png") center -3669px no-repeat $main_light;
-    &:hover{
+    &:hover {
       background: url("../../img/sprite.png") center -3669px no-repeat $buton_solid;
     }
   }
-  .top-right{
+  .top-right {
     margin: 10px;
     background: url("../../img/sprite.png") center -5819px no-repeat $main_light;
-    &:hover{
+    &:hover {
       background: url("../../img/sprite.png") center -5819px no-repeat $buton_solid;
     }
   }
-  .bottom-left{
+  .bottom-left {
     margin: 10px;
     background: url("../../img/sprite.png") center -2077px no-repeat $main_light;
-    &:hover{
+    &:hover {
       background: url("../../img/sprite.png") center -2077px no-repeat $buton_solid;
     }
   }
-  .bottom-middle{
+  .bottom-middle {
     margin: 10px;
     background: url("../../img/sprite.png") center -4213px no-repeat $main_light;
-    &:hover{
+    &:hover {
       background: url("../../img/sprite.png") center -4213px no-repeat $buton_solid;
     }
   }
-  .bottom-right{
+  .bottom-right {
     margin: 10px;
     background: url("../../img/sprite.png") center -4746px no-repeat $main_light;
-    &:hover{
+    &:hover {
       background: url("../../img/sprite.png") center -4746px no-repeat $buton_solid;
     }
   }
 
-  a{
+  a {
     text-align: center;
     display: block;
     width: 100%;
     height: 162px;
-    &:hover{
+    &:hover {
       text-decoration: none;
-      span{
+      span {
         color: $light_fields;
       }
     }
-      span{
-        display: inline-block;
-        padding-top: 26%;
-        color: $dark_fields;
-      }
+    span {
+      display: inline-block;
+      padding-top: 26%;
+      color: $dark_fields;
+    }
   }
 
 }
@@ -164,6 +163,81 @@
   color: $text_dark;
   //font-size: 36px;
   text-align: center;
+}
+
+.HiW-block {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  border: 1px solid #cccccc;
+  background-color: #e84c3d;
+  text-align: center;
+  &:before {
+    content: '';
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #333333;
+    background-color: #14a85c;
+    border-radius: 50%;
+    position: relative;
+    top: 13px;
+    left: 2px;
+  }
+  &:after {
+    content: '';
+    display: inline-block;
+    width: 2px;
+    height: 63px;
+    background-color: $dark_fields;
+    margin-top: 68px;
+    position: relative;
+    right: 6px;
+  }
+}
+
+.HiW-text {
+  //@include font(16px, $bgColorFooter - #111, 400);
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 15px;
+  margin-left: 10px;
+  span {
+    @include font(14px, white, 700);
+    display: inline-block;
+    &:hover {
+      color: red;
+      cursor: pointer;
+    }
+  }
+}
+
+.border-bottom {
+  border-bottom: 1px dashed $dark_fields;
+}
+
+.HiW-block-center {
+  text-align: center;
+}
+
+.HiW-block-right {
+  text-align: right;
+  .round-green {
+    margin: -6px 184px -7px;
+  }
+}
+
+.border_top {
+  .HiW-block-u_l {
+    text-align: center;
+  }
+  .HiW-block-u_r {
+    text-align: center;
+    .round-green {
+      margin: -6px 184px -7px;
+    }
+  }
 }
 
 .H_I_T_lines {
@@ -209,31 +283,32 @@
   border: 1px solid #ccc;
 }
 
-.under_HIT{
-  & h2{
-  text-align: center;
-  font-size: 36px;
-  color: $text_dark;
-  font-weight: 400;}
-    & p{
-      font-size: 14px;
-      //width: 572px;
-      //height: 331px;
-      color: #777777;
-      //font-family: Montserrat;
-      //font-size: 14px;
-      font-weight: 300;
-      line-height: 24.39px;
-    }
+.under_HIT {
+  & h2 {
+    text-align: center;
+    font-size: 36px;
+    color: $text_dark;
+    font-weight: 400;
+  }
+  & p {
+    font-size: 14px;
+    //width: 572px;
+    //height: 331px;
+    color: #777777;
+    //font-family: Montserrat;
+    //font-size: 14px;
+    font-weight: 300;
+    line-height: 24.39px;
+  }
 
-  & li{
+  & li {
     font-size: 14px;
     color: #777777;
   }
-  & ul{
+  & ul {
     padding-bottom: 12px;
   }
-  & button{
+  & button {
     margin-left: 155px;
     border-radius: 2px;
     border: 1px solid $small_lines_solid;
@@ -244,36 +319,53 @@
     color: $text_super_liht;
     margin-bottom: 5px;
   }
-& button:hover{
-  background-color: $buton_solid;
-}
+  & button:hover {
+    background-color: $buton_solid;
+  }
 }
 
-.pre_last_line{
+.pre_last_line {
   background-color: $small_lines_solid;
-  & img{
+  & img {
     position: center;
     width: 203px;
     height: 70px;
     background-color: #ccd3dd;
   }
-  & .logo_down{
+  & .logo_down {
     margin: 20px 0;
-    position: center;
+    text-align: center;
     background-color: #ccd3dd;
-    width: 300px;
-    height: 97px;
+    //width: 300px;
+    //height: 97px;
     border: 2px solid $text_super_liht;
   }
 }
 
-.contacts_down{
+.contacts_down {
   color: $text_super_liht;
   text-align: center;
   margin-bottom: 20px;
-  & a{
+  & a {
     color: $text_super_liht;
     text-align: center;
     text-decoration: none;
+  }
+}
+
+.text_down_page {
+  color: $text_super_liht;
+}
+
+fieldset {
+  color: $buton_solid;
+  border: 2px solid $text_super_liht;
+  legend button{
+    //position: relative;
+    border: none;
+    color: $text_super_liht;
+    background-color: $buton_solid;
+    //top: 194px;
+    //left: 752px;
   }
 }

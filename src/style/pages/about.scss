@@ -1,0 +1,36 @@
+.about_line{
+  text-align: center;
+  background-color: $main_light;
+  color: $text_super_liht;
+}
+
+.w_w_a{
+  text-align: center;
+  color: $text_dark;
+}
+
+.firs_line_under_wwa{
+  background-color: $small_lines_solid;
+  color: $text_super_liht;
+  text-align: center;
+  font-size: 23px;
+  height: 71px;
+  //margin: 0 -15px;
+  width: auto;
+}
+
+.ul_list{
+  top: -23px;
+  position: relative;
+  background-color: #ccc;
+  text-align: left;
+}
+
+.why_chose_us{
+  p{
+    height: 30px;
+    text-align: center;
+    color: $text_super_liht;
+    background-color: $small_lines_solid;
+  }
+}
